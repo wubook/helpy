@@ -1,0 +1,665 @@
+# MAINTAINER: SCOTT MILLER
+
+en:
+language_name: 'ภาษาไทย' # The name of the translation file, in that language
+root: &root 'หน้าหลัก'
+how_can_we_help: "ให้เราช่วยอะไรไหม?"
+browse_topics: "ค้นหาคลังความรู้"
+support_team: "ทีมช่วยเหลือ"
+nothing_here: "ไม่มีอะไรตรงนี้!"
+
+# Navigation
+knowledgebase: "คลังความรู้"
+community: "คอมมูนิตี้"
+ask_a_question: "เปิดTicket"
+home: "หน้าหลัก"
+login: "ล็อคอิน"
+logout: "ล็อคเอ้าท์"
+register: "ลงทะเบียน"
+back_to: "กลับสู่"
+welcome_back: "ยินดีต้อนรับกลับ %{username}"
+your_profile: "โปรไฟล์ของคุณ"
+your_tickets: "Tickets ของคุณ"
+locale: "สถานที่"
+change_your_locale: "เปลี่ยนสถานที่ของคุณ"
+
+# Voting widget
+did_this_help: "นี่ช่วยแก้ปัญหาของคุณหรือไม่?"
+yes_button: 'ใช่'
+no_button: 'ไม่ใช่'
+yes_helped: 'เยี่ยมมาก! ขอบคุณสำหรับคำแนะนำ!'
+no_helped: "เราขอโทษที่สิ่งนี้ไม่สามารถช่วยเหลือคุณได้. กรุณาติดต่อเราเพื่อรับการช่วยเหลือเพิ่มเติม!"
+
+# Search
+search_placeholder: "ใส่คีย์เวิร์ด, หัวข้อ, หรือคำถาม"
+no_results: "ไม่พบสิ่งที่คุณต้องการ, กรุณาค้นหาใหม่อีกครั้ง!"
+results_found:
+one: "พบสิ่งที่คุณค้นหา 1 อย่าง "
+other: "%{count} ผลลัพธ์ที่คุณค้นหา "
+
+# Community
+forum_name: "หัวข้อ"
+subject: &subject "หัวข้อ"
+message: "ข้อความ"
+last_activity: "Active ล่าสุด"
+topic: "การพูดคุย"
+replies: "ตอบกลับ"
+last_post: "โพสล่าสุด"
+started_by: "เริ่มต้นจาก %{username}"
+reply: "ตอบกลับ ticket นี้"
+submit_reply: "โพสตอบกลับ"
+posted: "โพสแล้ว"
+start_discussion: "เริ่มต้นการพูดคุย"
+submit_start_discussion: "สร้างTicket"
+should_message_be_private: "ข้อความนี้ควรเป็น Private หรือไม่?"
+only_support_can_respond: "Support เท่านั้นที่สามารถตอบได้ (สร้าง private ticket)"
+responses_can_come_from_everyone: "การตอบสนองสามารถมาจาก Support หรือมาจากคอมมูนิตี้ (แนะนำ)"
+collapsed_messages:
+one: "1 ข้อความที่ยุบใว้"
+two: "2 ข้อความที่ยุบใว้"
+other: "%{count} ข้อความที่ยุบใว้"
+
+# Knowledgebase
+written_by: "เขียนโดย"
+last_edited: "แก้ไขล่าสุด"
+tagged: "แท็ค"
+asked_before: "คำถามของคุณได้รับคำตอบมาก่อนใช่ไหม? เราคิดว่ามีบางอย่างที่คล้ายกัน"
+
+# Tickets
+tickets: &tickets "Tickets"
+no_tickets: "คุณยังไม่มีการสร้าง tickets ใดๆเลย"
+ticket_number: "หมายเลข Ticket "
+assigned_to_label: "มอบหมายให้"
+created_on: "สร้างขึ้นเมื่อ"
+
+# Get Help
+get_help_header: "ยังคงต้องการความช่วยเหลือ?"
+get_help_button: "เปิด ticket"
+
+# Profile
+my_profile: 'โปรไฟล์ของฉัน'
+
+# Locales
+select_locale: "เปลี่ยนสถานที่ของคุณ"
+
+# footer
+powered_by: "สนับสนุนโดย Helpy. การเปิดช่องทางความช่วยเหลือ"
+get_your_copy: "รับสำเนาของคุณบน GitHub"
+version: "เวอร์ชั่น:"
+
+# flag
+flag_for_review: ทำเครื่องหมายเพื่อรีวิว"
+flag_post_for_review: "ทำเครื่องหมายในโพสเพื่อรีวิว"
+flag_post_placeholder: "อธิบายเหตุผลสำหรับการทำเครื่องหมายในโพสนี้"
+flag: "ทำเครื่องหมาย"
+
+# devise/sessions/new
+login: เข้าสู่ระบบ
+
+# devise/shared/links
+forgot_password: ลืมพาสเวิร์ดของคุณหรือไม่?
+
+# devise/passwords/new
+send_instructions: ส่งวิธีดำเนินการมาให้ฉัน
+
+# devise/passwords/edit
+change_password: เปลี่ยนพาสเวิร์ด
+new_password: พาสเวิร์ดใหม่
+new_password_confirmation: ยืนยันพาสเวิร์ดใหม่
+
+# devise/confirmations/new
+resend: ส่งวิธีการยืนยันอีกครั้ง
+
+# devise/registrations/new
+sign_up: สมัคร
+
+# flash messages
+model_created: "%{object_name} ถูกบันทึกแล้ว"
+model_updated: "%{object_name} อัพเเดทแล้ว"
+model_destroyed: "%{object_name} ถูกลบแล้ว"
+
+# Admin menu
+inbox: อินบ๊อกซ์
+discussions: Tickets
+content: ข้อมูล
+communities: คอมมูนิตี้
+app_store: App Store
+search: ค้นหา
+internal_content: ข้อมูลภายใน
+new_ticket: Ticket ใหม่
+reports: รีพอท
+helpcenter: "ศูนย์ช่วยเหลือ"
+get_help: "ช่วยเหลือ"
+report_bug: "รีพอท Bug"
+suggest_feature: "Feature ที่แนะนำ"
+shortcuts: "ตัวย่อคีย์บอร์ด"
+sponsors: "สปอนเซอร์"
+
+# Admin main/statuses
+support_pipeline: Support Pipeline
+new: ใหม่
+active: ทั้งหมด
+open: เปิด
+mine: ของฉัน
+pending: ที่ยังดำเนินการอยู่
+closed: &closed ปิด ปิดแล้ว
+spam: สแปม
+trash: ถังขยะ
+discussion_managment: การจัดการ Ticket 
+open_new_discussion: Ticket ใหม่
+assigned_to: "assigned to %{agent}"
+unassigned: ยังไม่ได้มอบหมาย
+no_team_assigned: มอบหมายให้กับทีม
+assign_to: กรุ๊ป/ทีม
+unassign_from_team: ทีมที่ยังไม่ได้มอบหมาย
+private: ส่วนตัว
+public: สาธารณะ
+save_changes: บันทึกการเปลี่ยนแปลง
+merge: ควบรวม
+merge_confirm: คุรแน่ใจที่จะควบรวม tickets เหล่านี้ใช่หรือไม่?
+customer_conversation: การสนทนากับลูกค้า
+internal_ticket: ภายในTicket
+unassign_agent: ตัวแทนที่ยังไม่ได้รับมอบหมาย
+
+# Discussion controls
+change_status: เปลี่ยนสถานะ
+status: &status สถานะ
+mark_closed: ทำเครื่องหมายว่า ปิด/แก้ไขแล้ว
+reopen: กลับมาเปิดใหม่
+mark_spam: ทำเครื่องหมายสแปม
+mark_new: ทำเครื่องหมายว่าใหม่
+assign_agent: &assign_agent มอบหมายให้ตัวแท
+tag_with: &tag_with แท็ค Ticket
+selected_messages:
+one: "1 ข้อความที่ถูกเลือก"
+two: "2 ข้อความที่ถูกเลือก"
+other: "%{count} ข้อความที่ถูกเลือก"
+mark_as: "ทำเครื่องหมาย"
+move_to: "ย้าย"
+users_history: "%{role}ของประวัติทั้งหมด"
+
+# Discussion messages
+new_message: "Ticket นี้ถูกทำเครืองหมายว่าใหม่โดยทีมงานช่วยเหลือ"
+spam_message: "Ticket นี้ถูกทำเครืองหมายว่าสแปมโดยทีมงานช่วยเหลือ"
+reopen_message: "Ticket นี้ถูกกลับมาเปิดขึ้นใหม่โดยทีมงานช่วยเหลือ"
+closed_message: "Ticket นี้ถูกปิดโดยทีมงานช่วยเหลือ"
+trash_message: "Ticket นี้ถูกลบแล้ว."
+assigned_message: "Ticket ถูกส่งต่อไปยัง %{assigned_to}."
+unassigned_message: "Ticket นี้ยังไม่ได้ถูกมอบหมาย"
+assigned_group: "Ticket นี้ถูกมอบหมายไปยัง %{assigned_group}."
+converted_to_ticket: "การพูดคุยน้ีได้ถูกเปลี่ยนไปเป็น Ticket ส่วนตัว."
+converted_to_topic: "การพูดคุยนี้ได้ถูกเปลี่ยนไปเป็นการคุยแบบเปิดและย้ายไปยัง %{forum_name}."
+tagged_with: "Ticket นี้ถูกแท็คด้วย %{tagged_with}"
+notes_hidden: "มันมี %{hidden_notes} โน๊ตข้อความภายในสำหรับ Ticket นี้. คุณสามารถดูมันได้โดยการคลิ๊กตรงไหนก็ได้บนโน๊ตนี้!"
+topic_added_from: "%{kind} เพิ่มจาก %{channel}"
+
+# User Admin
+users: &users ผู้ใช้
+create_user: สร้างผู้ใช้ใหม่
+account: บัญชี
+contact_info: ติดต่อ
+social_info: ทางสังคม
+edit_user: แก้ไขผู้ใช้
+delete_user: ลบผู้ใช้
+work_phone: งาน
+cell_phone: โทร
+last_seen: "ดูล่าสุด"
+scrub_user: "ผู้ใช้ที่ไม่ระบุชื่อ"
+anonymize_user_warning: "คุณแน่ใจที่จะไม่ระบุชื่อหรือไม่ %{user_name}? การดำเนินการนี้จะลบข้อมูลส่วนตัวของผู้ใช้อย่างถาวร แต่จะเก็บ Ticketและโพสต์สาธารณะทั้งหมดไว้."
+delete_user_warning: "คุณแน่ใจหรือที่จะลบ %{user_name}? การดำเนินการนี้จะลบผู้ใช้และTicket, โพส, คำตอบ และหัวข้อฟอรัมทั้งหมดของผู้ใช้อย่างถาวร."
+click_to_edit: คลิ๊กเพื่อแก้ไข %{what}
+
+# Priorities
+select_priority: &priority เลือกลำดับสำคัญ
+vip_priority: VIP
+very_high_priority: อย่างมาก
+high_priority: มาก
+normal_priority: ปกติ
+low_priority: น้อยสุด
+
+# Roles
+select_role: เลือกหน้าที่
+admin_role: Administrator
+agent_role: ตัวแทน
+editor_role: Editor
+user_role: ลูกค้า
+add_more_agents: "เพิ่มผู้ใช้"
+
+# Groups
+groups: "กรุ๊ป"
+add_new_group: "กรุ๊ปใหม่"
+group: "กรุ๊ป"
+tag_group: ""
+tag_name: "ชื่อกรุ๊ป"
+description: "คำอธิบาย"
+color: "สี"
+show_on_helpcenter: "แสดงในศูนย์ช่วยเหลือ"
+show_on_admin: "แสดงใน Admin"
+email_address: "ที่อยู่อีเมลล์"
+from_name: "จาก ชื่อ"
+
+# Keyboard Shortcuts
+shortcut_then: "จากนั้น"
+listing_views: "ดูรายการ"
+keyboard_shortcuts: "ตัวย่อคีย์บอร์ด"
+show_new_tickets: "แสดง Ticket ใหม่"
+show_all_tickets: "แสดง Ticket ทั้งหมด"
+show_open_tickets: "แสดง Ticket ที่เปิด"
+show_tickets_assigned_to_you: "แสดง Ticket ที่มอบหมายมายังเรา"
+show_pending_tickets_assigned_to_you: "แสดง Ticket ที่ยังดำเนินการอยู่ที่มอบหมายมายังเรา"
+show_closed_tickets: "แสดง Ticket ที่ปิดแล้ว"
+search_for_tickets: "ค้นหา Ticket"
+viewing_tickets: "ดู Ticket"
+select_previous_ticket: "เลือก Ticket ก่อนหน้านี้"
+select_next_ticket: "เลือก Ticket ต่อไป"
+view_selected_ticket: "ดู Ticket ที่เลือกแล้ว"
+jump_to_a_specific_ticket_number: "กระโดดไปยังการระบุหมายเลขของ Ticket"
+ticket_actions: "Ticket แอ๊คชั่น"
+assign_the_ticket: "มอบหมาย Ticket"
+move_the_ticket: "ย้าย Ticket"
+expand_the_ticket_thread: "ขยายเหตุการ์ณของ Ticket"
+reply_to_the_ticket: "ตอบกลับ Ticket"
+add_an_internal_note: "ใส่เพิ่มโน๊ตภายใน"
+change_ticket_status: "เปลี่ยนสถานะของ Ticket"
+associate_with_a_group: "เชื่อมโยงกับกรุ๊ป"
+ticket_status: "สถานะของ Ticket"
+mark_resolved: "ปิด Ticket"
+reopen_ticket: "เปิด Ticket ใหม่"
+set_to_new: "ทำเครื่องหมายว่าใหม่"
+mark_as_spam: "ทำเครื่องหมายว่าสแปม"
+move_to_trash: "ย้ายลงถังขยะ"
+ticket_number: "หมายเลขของ Ticket"
+
+# User search results
+users_found:
+one: "มี 1 ผู้ใช้ชื่อว่า %{query}"
+other: "%{count} ผู้ใช้ ใช้ชื่อว่า %{query}"
+
+# Invite users
+invite_users: "เชิญผู้ใช้ใหม่ทีละจำนวนมาก"
+invite_emails: "ที่อยู่อีเมลล์"
+invite_emails_placeholder: "เลือกหนึ่งอีเมลล์หรือมากกว่าเพื่อส่งการเชิญที่นี้"
+invite_message: "ข้อความ"
+invite_message_placeholder: "ข้อมความที่เป็นทางเลือกที่จะใช้ส่งไปหาผู้ใช้ใหม่"
+invite_role: "ตำแหน่งสำหรับการเชิญผู้ใช้"
+send_invite: "ส่งการเชิญ"
+
+# Discussion View
+asked_a_question: "%{user_name} เขียนว่า..."
+replied: "%{user_name} ตอบว่า..."
+posted_note: "%{user_name} โพสโน๊ตข้อความภายใน..."
+type_reply: เลือกการตอบกลับโดยคุณ, หรือเลือกจากข้อความทั่วไปจากด้านล่างนี้
+select_common: เลือกตอบกลับจากข้อความทั่วไป
+reply_option: ตอบกลับ
+internal_note: โน๊ตภายใน
+mark_as_resolved: ทำเครื่องหมายว่าแก้ไขแล้ว
+upvote:
+one: "Upvote | %{count}"
+other: "Upvote | %{count}"
+
+# Content
+new_category: Category ใหม่
+new_content: ข้อมูลใหม่
+front_page_categories: จาก Categories หน้าแรก
+other_categories: Categories อื่นๆ
+edit: แก้ไข
+edit_category: แก้ไข Category
+select_category: เลือก Category
+delete: ลบ
+view_and_edit: "ดูและแก้ไขข้อมูล"
+delete_confirm: "กรุณายืนยันว่าคุณต้องการลบสิ่งนี้!"
+select_icon_helptext: "เลือก icon ที่เชื่อมโยงกันกับ category นี้ (ทางเลือก)"
+translate: "แปลโดยภาษาอื่น"
+view_on_site: "ดูแบบ on Site"
+written_on: "เขียนเมื่อ %{date_written}"
+content_last_updated: "อัพเดทล่าสุดเมื่อ %{date_updated}"
+featured_content: "Featured"
+draft_content: "ร่างข้อความ"
+published_content: "Published"
+additional_settings: "การตั้งค่าเพิ่มเติม"
+content_status: "สถานะของข้อมูล"
+convert_content: 'บันทึกบทความ หรือตอบกลับโดยทั่วไป'
+upload_image: 'อัปโหลดรูปภาพ'
+new_discussion: 'สร้างการพูดคุยใหม่จากตรงนี้'
+new_discussion_post: 'การพูดคุย #%{topic_id} ถูกสร้างขึ้นจากตรงนี้'
+new_discussion_topic_title: 'แยกออกจาก #%{original_id}-%{original_name}'
+change_owner_note: 'ผู้สร้างหัวข้อนี้เปลี่ยนจาก %{old} เป็น %{new}'
+
+# Internal Content
+no_internal_content_title: "ยังไม่มีการเขียนเอกสารภายในใดๆเลย"
+no_internal_content_text: "ไม่ต้องกังวล ! หากต้องการมีส่วนร่วมกับเอกสารภายในให้ไปที่ Helpcenter > ข้อมูล. และใส่ Category ภายใน, จากนั้นก็แชร์ความรู้กับทีมของคุณโดยการเขียนข้อความ!"
+
+# Communities
+new_community: สร้างคอมมูนิตี้ใหม่
+create_new_community: สร้างคอมมูนิตี้ใหม่
+layout_select: เลือกฟอแมท
+layout_table: ตาราง
+layout_grid: Grid
+layout_qna: Q&A
+
+# Mail messages
+new_user_subject: "ยินดีต้อนรับ %{site_name}"
+hello: "สวัสดี %{user_name}"
+thank_you: "ขอบคุณ!"
+new_user: "ขอบคุณที่ติดต่อเรา.  ทีมช่วยเหลือของเราได้รับข้อความของคุณแล้วและเราจะติดต่อกลับโดยเร็วที่สุด."
+account_generated: "บัญชีนี้ถูกสร้างขึ้นเพื่อคุณ. เพื่อเข้าสู่ระบบ, กรุณาใช้ลิ้งค์นี้:"
+above_this_line: "ตรวจสอบว่าคำตอบของคุณปรากฏเหนือบรรทัดนี้"
+message_id: "ข้อความ ID"
+message_response: "ข้อความต่อไปนี้ถูกโพสต์เพื่อตอบคำถามของคุณ:"
+ticket_added: "คุณได้รับTicketใหม่ คลิกที่นี่เพื่อดู: %{ticket_link}"
+response_added: "เพิ่มคำตอบลงใน Ticket ของคุณแล้ว คลิกที่นี่เพื่อดู: %{ticket_link}"
+view_online: "ดูสิ่งนี้แบบออนไลน์:"
+
+# Admin notifications
+notify_new_private: " มีTicket ของลูกค้าใหม่เพิ่งได้รับจาก %{user_name}:"
+notify_new_public: "มีข้อความสาธารณะของลูกค้าใหม่ได้โพสแล้ว %{user_name}:"
+notify_new_reply: "มีการตอบกลับของลูกค้าใหม่ได้รับจาก %{user_name}:"
+notify_user_delete: "ผู้ใช้ %{user_name} ถูกตั้งกำหนดให้ลบถาวร."
+to_reply: 'ตอบกลับข้อความนี้โดยตรง หรือออนไลน์:'
+
+# Notifications settings panel
+notify_on_private: "เมื่อ ticket ได้รับแล้ว "
+notify_on_public: "เมื่อคำถามของลูกค้าที่เป็นสาธารณะถูกโพสแล้ว"
+notify_on_reply: "เมื่อมีการตอบกลับใหม่ของ Ticket ได้รับแล้ว"
+
+# settings
+agent_settings: "การตั้งค่า Agent"
+notifications: "การแจ้งเตือน"
+notifications_description:
+settings: "การตั้งค่า"
+general: "โดยทั่วไป"
+general_description: "จัดการการตั้งค่าระบบทั่วไปเช่นชื่อ Helpy ของคุณ บริษัท ที่จะเชื่อมโยงกลับไป."
+design: "ออกแบบ"
+design_description: "ควบคุมโลโก้และสีและลักษณะการออกแบบอื่น ๆ ของ Helpy ของคุณ"
+international: "ระหว่างประเทศ"
+international_description:
+widget: "วิดเจ็ตแบบฝังได้"
+widget_description:
+common_replies: "การตอบโดยทั่วไป"
+common_replies_description:
+integrations: "การเชื่อมต่อ"
+integrations_description:
+theme:
+theme_description:
+email: "อีเมลล์"
+email_description:
+customers: "ลูกค้า"
+users_description:
+team: "ทีม"
+users_description:
+team_group: "ทีมกรุ๊ป"
+group_description:
+
+# General
+site_name: ชื่อไซต์
+site_url: ไซต์ URL
+site_url_placeholder: URL ของ Helpy ของคุณ (https://support.yourdomain.com)
+parent_site: Parent Site
+parent_company: Parent Company
+site_tagline: Site Tagline
+enable_forums: เปิดใช้งานคอมมูนิตี้ฟอรั่ม
+enable_knowledgebase: เปิดใช้งานคลังความรู้
+enable_tickets: เปิดใช้งาน Ticket ที่เป็นส่วนตัว
+enable_teams: เปิดใช้งานทีมงาน
+enable_welcome_email: ส่งอีเมลล์ต้อนรับให้กับ User ใหม่
+
+# Design
+header_logo: โลโก้ส่วนหัว
+search_background: ค้นหาสี Background
+top_bar: สีเน้นส่วนหัว
+link_color: ลิ้งค์สี
+form_background: จากสี Background
+still_need_help:
+
+# Locales
+supported_locales: สถานที่ที่รองรับ
+default_locale: สถานที่ตั้งเริ่มต้น
+select_default_locale: "เลือกสถานที่ตั้งต้น..."
+
+# Widget
+show_widget: แสดงวิดเจ็ตบนไซต์ที่สนับสนุน
+widget_background: สีพื้นหลังของวิดเจ็ต
+button_color: สีของปุ่มวิดเจ็ต
+button_text_color: สีข้อความวิดเจ็ต
+
+# Integrations
+incoming_webhook: อินคัมมิ่ง Webhook
+incoming_webhook_description: สร้าง tickets จากเว็บฟอร์มที่มีอยู่โดยโพสไปยัง JSON webhook URL. URL ความลับของคุณคือ
+enable_webhook_url: เปิดใช้งานอินคัมมิ่ง Webhooks
+google_analytics: Google Analytics
+google_analytics_description: ส่ง helpdest สถิติการใช้งานไปยัง Google Analytics สำหระบการรายงานและการสร้างภาพ.
+enable_google_analytics: เปิดใช้งาน Google Analytics
+google_analytics_id: Google Analytics ID
+recaptcha_integration: Recaptcha
+recaptcha_description: Recaptcha ช่วยปกป้องการใช้งาน Helpdesk แบบ self service ของคุณจากสแปม
+enable_recaptcha: เปิดใช้งาน Recaptcha
+recaptcha_site_key: Recaptcha Site Key
+recaptcha_api_key: Recaptcha API Key
+cloudinary_integration: Cloudinary
+cloudinary_description: Cloudinary นำเสนอบริการโฮสต์รูปภาพและบริการ transformation 
+enable_cloudinary: เปิดใช้งาน Cloudinary
+cloudinary_cloud_name: Cloudinary Cloud Name
+cloudinary_api_key: Cloudinary API Key
+cloudinary_api_secret: Cloudinary API Secret
+
+# Email
+mail_service: Inbound Mail Service Provider
+send_email: Enable Outbound (SMTP) Email
+boolean_no: ไม่ใช่
+boolean_yes: ใช่
+admin_email: แอดมิน อีเมลล์
+from_email: จาก อีเมลล์
+smtp_mail_username: SMTP Username
+smtp_mail_password: SMTP Password
+mail_smtp: SMTP Server
+mail_port: SMTP Port
+mail_domain: SMTP Domain
+spam_assassin_reject: SpamAssassin Threshold สำหรับการปฏิเสธ Ticket อีเมลขาเข้า
+spam_assassin_filter: SpamAssassin Threshold สำหรับการทำเครื่องหมายว่าเป็นสแปม Ticket ขาเข้า
+email_blacklist: ทำเครื่องหมาย Ticketโดยอัตโนมัติจากที่อยู่เหล่านี้ว่าเป็นสแปม (แยกหลายใบด้วยลูกน้ำ)
+
+# API Key Managmeent
+api_keys: "API Keys"
+key_name: "คีย์ แนม"
+token: "โทเค่น"
+add_key: "เพิ่ม คีย์ใหม่"
+expire_token: "โทเค่นหมดอายุ"
+expired: "หมดอายุแล้ว"
+expire_confirm: "กรุณายืนยันว่าคุณต้องการทำให้โทเค่นนี้หมดอายุ."
+spec_note: "คุณสามารถอ่านและทดลอง interactive API spec ได้ที่: "
+
+# Insights
+activity_report: "รีพอทกิจกรรม"
+team_insights: "ทีม อินไซต์"
+filter_by_date: "ฟิลเตอร์ โดยวันที่"
+today: "วันนี้"
+yesterday: "เมื่อวานนี้"
+this_week: "สัปดาห์นี้"
+last_week: "สัปดาห์ที่แล้ว"
+this_month: "เดือนนี้"
+last_month: "เดือนที่แล้ว"
+date_range: "ช่วงวันที่"
+insight_start_range: "เริ่มต้นวันที่:"
+insight_end_range: "วันที่สิ้นสุด:"
+insight_filter: "ฟิลเตอร์"
+insights_blurb_one:
+one: "<strong>%{period}</strong> ผู้ใช้ของคุณเปิด 1 Ticket ใหม่"
+other: "<strong>%{period}</strong> ผู้ใช้ของคุณเปิด <strong>%{count} tickets ใหม่</strong>"
+insights_blurb_two: "ซึ่งทีมของคุณตอบกลับไปยัง <strong>%{number_replied} (%{percentage_replied})</strong>"
+insights_blurb_three_html_html: "โดยมีค่าเฉลี่ยเวลาตอบสนองเท่ากับ <strong>%{response_time}</strong>"
+no_discussions: "ยังไม่มีการเปิดTicketใหม่ <strong>%{period}</strong>"
+assigned_topics: " Ticketsที่มอบหมายแล้ว"
+responded: "ตอบกลับแล้ว"
+closed: "ปิดแล้ว"
+replies: "ตอบกลับ"
+median_time: "เวลาเฉลี่ยในการตอบกลับครั้งแรก"
+
+# Reports
+ticketing_reports: รายงานการออก Ticket
+group_report: "กรุ๊ปรีพอท"
+team_reports: "ทีมรีพอท"
+percent_resolved: เปอร์เซ็นต์ที่แก้ไขแล้ว
+average_resolution_time: เวลาความละเอียดเฉลี่ย
+new_tickets: Ticket ใหม่
+new_tickets_explain: จำนวน Ticketใหม่ที่ Helpy ของคุณได้รับในช่วงนี้
+tickets_per_day: Tickets ต่อวัน
+tickets_per_day_explain: จำนวน ticket ของ Helpy ของคุณโดยเฉลี่ยต่อวัน
+replies_explain: จำนวนการตอบกลับที่ตัวแทนของคุณเขียนในช่วงเวลานี้
+actions_explain: จำนวนการดำเนินการทั้งหมด (การตอบกลับหรือบันทึกย่อภายใน) ในช่วงเวลานี้ ข้อบ่งชี้ที่ดีว่า Helpy ของคุณยุ่งแค่ไหน
+closed_explain: จำนวน Ticket ที่ปิดในช่วงเวลานี้ ควรใกล้เคียงกับจำนวน Ticketใหม่สำหรับช่วงเวลาก่อนหน้านี้
+
+# IMPORT/EXPORT
+file_type: ประเภท
+file_users: ผู้ใช้
+file_tickets: Tickets
+file_replies: ตอบกลับ
+file_docs: เอกสาร
+file_categories: Categories
+file_forums: ฟอรั่ม
+import: 'อิมพอต CSV'
+new_import: 'อิมพอตใหม่'
+export: 'เอ็กซ์พอต CSV'
+what_to_export: 'เลือกสิ่งใดที่คุณต้องการจะเอ็กซ์พอต'
+what_to_import: 'เลือกสิ่งใดที่คุณต้องการจะอิมพอต'
+imports: 'อิมพอต'
+exports: 'เอ็กซ์พอต'
+past_imports: 'อิมพอตล่าสุด'
+run_time: 'เวลาเรียกใช้'
+clear_all: 'ลบออกทั้งหมด'
+error_details: 'รายละเอียดความผิดพลาด'
+row_number: 'หมายเลขแถว'
+error_message: 'ข้อความผิดพลาด'
+object: 'วัตถุ'
+import_details: '#%{id} รายละเอียดอิมพอต
+select_for_export: 'เอ็กซ์พอต %{model} ไปยัง .csv'
+file_date_created: วันที่สร้างขึ้น
+import_total_submitted: บันทึกที่ส่งทั้งหมด
+import_total_created: บันทึกที่สร้างทั้งหมด
+file_name: ชื่อไฟล์
+file_download: ดาวน์โหลด
+file_delete: ลบ
+file_delete_confirm: "แน่ใจไหมว่าต้องการลบ .csv นี้?"
+
+kind_type: &kind ชนิด
+
+activerecord:
+attributes:
+user:
+email: อีเมลล์
+password: พาสเวิร์ด
+name: ชื่อ
+company: บริษัท
+work_phone: งาน
+home_phone: โทร
+cell_phone: มือถือ
+city: ตำบล
+state: อำเภอ
+zip: รหัสไปรษณีย์
+signature: ลายเซ็นต์
+title:
+time_zone:
+street: ถนน
+notes: โน๊ต
+topic:
+kind: *kind
+name: *subject
+channel: Channel
+team_list: ทีม
+priority: *priority
+current_status: *status
+assigned_user_id: *assign_agent
+tag_list: แท็คลิสต์
+post:
+kind: *kind
+body: ข้อความ
+cc: CC
+bcc: BCC
+attachments: เอกสารที่แนบ
+category:
+name: ชื่อ
+parent_id: Parent Category
+icon: ไอคอน
+keywords: คีย์เวิร์ด
+title_tag: ชื่อ แท็ค
+meta_description: Meta Description
+front_page: หน้าแรก
+active: Active
+visibility: ความสามารถในการมองเห็น
+visibility_label:
+all: ทั้งหมด
+public: สาธารณะ
+internal: ภายใน
+doc:
+title: หัวข้อ
+meta_description: Meta Description
+title_tag: ชื่อ แท็ค
+keywords: คีย์เวิร์ด
+category_id: Category
+active: สถานะ
+front_page: Featured ในหน้าแรก?
+forum:
+name: ชื่อ
+description: รายละเอียด
+private: ส่วนตัว
+layout: เลย์เอ้าท์
+allow_topic_voting: อนุญาตให้โหวตหัวข้อ?
+allow_post_voting: อนุญาตให้โหวตโพส?
+
+helpers:
+submit:
+topic:
+create: เริ่มต้นการสนทนาใหม่
+post:
+create:
+
+breadcrumbs:
+application:
+root: *root
+categories:
+root: *root
+docs:
+root: *root
+forums:
+root: *root
+locales:
+root: *root
+topics:
+root: *root
+posts:
+root: *root
+result:
+root: *root
+registrations:
+root: *root
+admin:
+internal_categories:
+root: *root
+internal_docs:
+root: *root
+helpers:
+actions: "Actions"
+links:
+back: "กลับ"
+cancel: "ยกเลิก"
+confirm: "คุณแน่ใจหรือ?"
+destroy: "ลบ"
+new: "ใหม่"
+edit: "แก้ไข"
+titles:
+edit: "แก้ไข %{model}"
+save: "บันทึก %{model}"
+new: "ใหม่ %{model}"
+delete: "ลบ %{model}"
+
+number:
+human:
+decimal_units:
+format: "%n%u"
+units:
+unit: ""
+thousand: k
+million: M
+billion: B
+trillion: T
+quadrillion: Q
+

@@ -1,0 +1,665 @@
+# MAINTAINER: SCOTT MILLER
+
+en:
+  language_name: 'Ελληνικά' # The name of the translation file, in that language
+  root: &root 'Αρχική'
+  how_can_we_help: "Πως μπορούμε να σας βοηθήσουμε;"
+  browse_topics: "Περιήγηση στη Γνωσιακή Βάση"
+  support_team: "Ομάδα Υποστήριξης"
+  nothing_here: "Τίποτα ακόμα εδώ!"
+
+  # Navigation
+  knowledgebase: "Γνωσιακή Βάση"
+  community: "Κοινότητα"
+  ask_a_question: "Άνοιγμα αναφοράς προβλήματος"
+  home: "Αρχική"
+  login: "Εισόδος"
+  logout: "Έξοδος"
+  register: "Εγγραφή"
+  back_to: "Πίσω σε"
+  welcome_back: "Καλωσορίσατε πίσω %{username}"
+  your_profile: "Το προφίλ σας"
+  your_tickets: "Αναφορές προβλήματος"
+  locale: "Τοπικός"
+  change_your_locale: "Αλλαγή του τοπικού σας"
+
+  # Voting widget
+  did_this_help: "Έλυσε αυτό το πρόβλημά σας;"
+  yes_button: 'Ναι'
+  no_button: 'Όχι'
+  yes_helped: 'Τέλεια! Ευχαριστούμε για το σχόλιο σας!'
+  no_helped: "Ζητούμε συγνώμη που δεν σας βοήθησε αυτό.  Παρακαλούμε, επικοινωνήστε μαζί μας για περισσότερη βοήθεια."
+
+  # Search
+  search_placeholder: "Εισάγετε μια λέξη κλειδί, ένα θέμα ή μια ερώτηση"
+  no_results: "Δεν βρέθηκαν αποτελέσματα, Παρακαλούμε, κάντε αναζήτηση πάλι!"
+  results_found:
+    one: "βρέθηκε ένα αποτέλεσμα για την αναζήτηση σας"
+    other: "%{count} αποτέλεσματα βρέθηκαν για την αναζήτηση σας"
+
+  # Community
+  forum_name: "Θέμα"
+  subject: &subject "Θέμα"
+  message: "Μήνυμα"
+  last_activity: "Τελευταία φορά ενεργός"
+  topic: "Συζήτηση"
+  replies: "Απαντήσεις"
+  last_post: "Τελευταία Ανάρτηση"
+  started_by: "Ξεκίνησε από %{username}"
+  reply: "Απάντηση σε αυτή την αναφορά προβλήματος"
+  submit_reply: "Απάντηση στην Ανάρτηση"
+  posted: "Αναρτημένο"
+  start_discussion: "Έναρξη συζήτησης"
+  submit_start_discussion: "Δημιουργία Αναφοράς Προβλήματος"
+  should_message_be_private: "Θα έπρεπε αυτό το μήνυμα να είναι ιδιωτικό;"
+  only_support_can_respond: "Μόνο το τμήμα υποστήριξης μπορεί να απαντήσει (να δημιουργήσει ένα ιδιωτικό μήνυμα)"
+  responses_can_come_from_everyone: "Οι απαντήσεις μπορούν να προέρχονται από την υποστήριξη ή την κοινότητα (συνίσταται)"
+  collapsed_messages:
+      one: "1 συμπτυγμένο μήνυμα"
+      two: "2 συμπτυγμένα μηνύματα"
+      other: "%{count} συμπτυγμένα μηνύματα"
+
+  # Knowledgebase
+  written_by: "Γραμμένο από"
+  last_edited: "Τελευταία Τροποποίηση"
+  tagged: "Με ετικέτα"
+  asked_before: "Έχει απαντηθεί η ερώτησή σας στο παρελθόν; Πιστεύουμε ότι αυτές μπορεί να είναι παρόμοιες"
+
+  # Tickets
+  tickets: &tickets "Αναφορές Προβλήματος"
+  no_tickets: "Δεν έχετε δημιουργήσει ακόμη αναφορές προβλήματος"
+  ticket_number: "Αριθμός Αναφοράς Προβλήματος"
+  assigned_to_label: "Ανατέθηκε σε"
+  created_on: "Δημιουργήθηκε στις"
+
+  # Get Help
+  get_help_header: "Χρειάζεστε ακόμη βοήθεια;"
+  get_help_button: "Άνοιγμα αναφοράς προβλήματος"
+
+  # Profile
+  my_profile: 'Το Προφίλ μου'
+
+  # Locales
+  select_locale: "Αλλάξτε τον Τοπικό σας"
+
+  # footer
+  powered_by: "Δημιουργήθηκε από την Helpy. Ένα ανοιχτού κώδικα Helpdesk."
+  get_your_copy: "Πάρτε το αντίγραφο στο GitHub"
+  version: "Έκδοση:"
+
+  # flag
+  flag_for_review: "Επισήμανση για κριτική"
+  flag_post_for_review: "Επισήμανση ανάρτησης για κριτική"
+  flag_post_placeholder: "Περιγράψτε τον λόγο για την επισήμανση αυτής της ανάρτησης"
+  flag: "Επισήμανση"
+
+  # devise/sessions/new
+  login: Συνδεθείτε
+
+  # devise/shared/links
+  forgot_password: Ξεχάσατε τον κωδικό σας;
+
+  # devise/passwords/new
+  send_instructions: Στείλτε μου οδηγίες
+
+  # devise/passwords/edit
+  change_password: Αλλαγή κωδικού
+  new_password: Νέος κωδικός
+  new_password_confirmation: Επιβεβαίωση νέου κωδικού
+
+  # devise/confirmations/new
+  resend: Στείλτε ξανά τις οδηγίες επιβεβαίωσης
+
+  # devise/registrations/new
+  sign_up: Συνδεθείτε
+
+  # flash messages
+  model_created: "%{object_name} αποθηκεύτηκε"
+  model_updated: "%{object_name} ανανεώθηκε"
+  model_destroyed: "%{object_name} διαγράφηκε"
+
+  # Admin menu
+  inbox: Εισερχόμενα
+  discussions: Αναφορά Προβλήματος
+  content: Περιεχόμενο
+  communities: Κοινότητες
+  app_store: App Store
+  search: Αναζήτηση
+  internal_content: Εσωτερικό Περιεχόμενο
+  new_ticket: Νέα Αναφορά Προβλήματος
+  reports: Αναφορές
+  helpcenter: "Κέντρο Βοήθειας"
+  get_help: "Βοήθεια"
+  report_bug: "Αναφορά Προβλήματος"
+  suggest_feature: "Προτείνετε τη Δυνατότητα"
+  shortcuts: "Συντομεύσεις Πληκτρολογίου"
+  sponsors: "Χορηγοί"
+
+  # Admin main/statuses
+  support_pipeline: Υποστήριξη Pipeline
+  new: Νέα
+  active: Όλες
+  open: Ανοικτές
+  mine: Δικές μου
+  pending: Εκκρεμείς
+  closed: &closed Closed
+  spam: Ανεπιθύμητες
+  trash: Κάδος Απορριμάτων
+  discussion_managment: Διαχείριση Αναφοράς Προβλήματος
+  open_new_discussion: Νέα Αναφορά Προβλήματος
+  assigned_to: "ανατέθηκε σε %{agent}"
+  unassigned: χωρίς ανάθεση
+  no_team_assigned: Ανάθεση σε Ομάδα
+  assign_to: Ομάδα
+  unassign_from_team: Ομάδα χωρίς ανάθεση
+  private: ιδιωτική
+  public: δημόσια
+  save_changes: Αποθήκευση Αλλαγών
+  merge: Συγχώνευση
+  merge_confirm: Είστε βέβαιοι ότι θέλετε να συγχωνεύσετε αυτές τις αναφορές προβλήματος;
+  customer_conversation: Συζήτηση Πελάτη
+  internal_ticket: Εσωτερική Αναφορά Προβλήματος
+  unassign_agent: Πρακτορείο χωρίς ανάθεση
+
+  # Discussion controls
+  change_status: Αλλαγή Κατάστασης
+  status: &status Κατάσταση
+  mark_closed: Επισήμανση Κλειστό/Επιλυμένο
+  reopen: Ξανανοίγω
+  mark_spam: Επισήμανση ως Ανεπιθύμητο
+  mark_new: Επισήμανση ως Νέο
+  assign_agent: &assign_agent Ανάθεση Πρακτορείου
+  tag_with: &tag_with Επισήμανση Αναφοράς Προβλήματος
+  selected_messages:
+    one: "1 επιλεγμένο μήνυμα"
+    two: "2 επιλεγμένα μηνύματα"
+    other: "%{count} επιλεγμένα μηνύματα"
+  mark_as: "Μαρκάρετε"
+  move_to: "Μετακινήστε"
+  users_history: "%{role} του πλήρες ιστορικού"
+
+  # Discussion messages
+  new_message: "Αυτή η αναφορά προβλήματος έχει επισημανθεί ως νέα από το προσωπικό υποστήριξης"
+  spam_message: "Αυτή η αναφορά προβλήματος έχει επισημανθεί ως ανεπιθύμητη από το προσωπικό υποστήριξης"
+  reopen_message: "Αυτή η αναφορά προβλήματος άνοιξε ξανά από το προσωπικό υποστήριξης"
+  closed_message: "Αυτή η αναφορά προβλήματος έκλεισε από το προσωπικό υποστήριξης"
+  trash_message: "Αυτή η αναφορά προβλήματος έχει διαγραφεί"
+  assigned_message: "Αυτή η αναφορά προβλήματος μεταφέρθηκε στο %{assigned_to}."
+  unassigned_message: "Αυτή η αναφορά προβλήματος δεν έχει ανατεθεί"
+  assigned_group: "Αυτή η αναφορά προβλήματος έχει ανατεθεί στην %{assigned_group}."
+  converted_to_ticket: "Αυτή η συζήτηση μετατράπηκε σε ιδιωτική αναφορά προβλήματος."
+  converted_to_topic: "Αυτή η αναφορά προβλήματος μετατράπηκε σε ανοιχτή συζήτηση και μετακινήθηκε στο %{forum_name}."
+  tagged_with: "Αυτή η αναφορά προβλήματος επισημάνθηκε με %{tagged_with}"
+  notes_hidden: "Υπάρχουν %{hidden_notes} εσωτερικές σημειώσεις για αυτή την αναφορά προβλήματος. Μπορείτε να τις δείτε κάνοντας κλικ οπουδήποτε σε αυτήν τη σημείωση!"
+  topic_added_from: "%{kind} προστέθηκε από %{channel}"
+
+  # User Admin
+  users: &users Χρήστες
+  create_user: Δημιουργία Νέου Χρήστη
+  account: Λογαριασμός
+  contact_info: Επαφή
+  social_info: Κοινωνικός
+  edit_user: Επεξεργασία Χρήστη
+  delete_user: Διαγραφή Χρήστη
+  work_phone: εργασία
+  cell_phone: κελί
+  last_seen: "Τελευταία Ανάγνωση"
+  scrub_user: "Ανώνυμος Χρήστης"
+  anonymize_user_warning: "Είστε βέβαιοι ότι θέλετε να κάνετε ανωνυμία %{user_name}; Αυτό θα ανωνυμοποιεί μόνιμα τα προσωπικά δεδομένα του χρήστη, αλλά θα διατηρεί όλες τις αναφορές προβλήματος και τις δημόσιες αναρτήσεις του."
+  delete_user_warning: "Είστε βέβαιοι ότι θέλετε να διαγράψετε %{user_name}; Αυτό θα καταργήσει οριστικά τον χρήστη και όλες τις αναφορές προβλήματος του, τις αναρτήσεις, τις απαντήσεις και τα θέματα του φόρουμ."
+  click_to_edit: κάντε κλικ για να επεξεργαστείτε %{what}
+
+  # Priorities
+  select_priority: &priority Επιλογή Προτεραιότητας
+  vip_priority: VIP
+  very_high_priority: Πολύ Υψηλή
+  high_priority: Υψηλή
+  normal_priority: Κανονική
+  low_priority: Χαμηλή
+
+  # Roles
+  select_role: Επιλογή Ρόλου
+  admin_role: Διαχειριστής
+  agent_role: Πρακτορείο
+  editor_role: Συντάκτης
+  user_role: Πελάτης
+  add_more_agents: "Προσθήκη περισσότερων χρηστών"
+
+  # Groups
+  groups: "Ομάδες"
+  add_new_group: "Νέα Ομάδα"
+  group: "Ομάδα"
+  tag_group: ""
+  tag_name: "Όνομα Ομάδας"
+  description: "Περιγραφή"
+  color: "Χρώμα"
+  show_on_helpcenter: "Εμφάνιση στο Helpcenter"
+  show_on_admin: "Εμφάνιση στον Διαχειριστή"
+  email_address: "Διεύθυνση Email"
+  from_name: "Από Όνομα"
+
+  # Keyboard Shortcuts
+  shortcut_then: "έπειτα"
+  listing_views: "Προβολές καταχώρησης"
+  keyboard_shortcuts: "Συντομεύσεις πληκτρολογίου"
+  show_new_tickets: "Εμφάνιση νέων αναφορών προβλήματος"
+  show_all_tickets: "Εμφάνιση όλων των αναφορών προβλήματος"
+  show_open_tickets: "Εμφάνιση ανοιχτών αναφορών προβλήματος"
+  show_tickets_assigned_to_you: "Εμφάνιση αναφορών προβλήματος που σας έχουν ανατεθεί"
+  show_pending_tickets_assigned_to_you: "Εμφάνιση εκκρεμών αναφορών προβλήματος που σας έχουν ανατεθεί"
+  show_closed_tickets: "Εμφάνιση κλειστών αναφορών προβλήματος"
+  search_for_tickets: "Αναζήτηση αναφορών προβλήματος"
+  viewing_tickets: "Δείτε τα εισιτήρια"
+  select_previous_ticket: "Επιλέξτε την προηγούμενη αναφορά προβλήματος"
+  select_next_ticket: "Επιλέξτε την επόμενη αναφορά προβλήματος"
+  view_selected_ticket: "Προβολή επιλεγμένης αναφοράς προβλήματος"
+  jump_to_a_specific_ticket_number: "Μετάβαση σε συγκεκριμένο αριθμό αναφοράς προβλήματος"
+  ticket_actions: "Δράσεις αναφορών προβλήματος"
+  assign_the_ticket: "Ανάθεση αναφοράς προβλήματος"
+  move_the_ticket: "Μετακίνηση αναφοράς προβλήματος"
+  expand_the_ticket_thread: "Χρονική επέκταση της αναφοράς προβλήματος"
+  reply_to_the_ticket: "Απάντηση στην αναφορά προβλήματος"
+  add_an_internal_note: "Προσθέστε μια εσωτερική σημείωση"
+  change_ticket_status: "Αλλαγή κατάστασης αναφοράς προβλήματος"
+  associate_with_a_group: "Συνδεθείτε με μια ομάδα"
+  ticket_status: "Κατάσταση αναφοράς προβλήματος"
+  mark_resolved: "Κλείσιμο Αναφοράς Προβλήματος"
+  reopen_ticket: "Ανοίξτε ξανά την αναφορά προβλήματος"
+  set_to_new: "Επισήμανση ως καινούργιου"
+  mark_as_spam: "Επισήμανση ως ανεπιθύμητου"
+  move_to_trash: "Μετακίνηση στον κάδο απορριμάτων"
+  ticket_number: "αριθμός αναφοράς προβλήματος"
+
+  # User search results
+  users_found:
+    one: "Βρέθηκε 1 χρήστης με όνομα %{query}"
+    other: "%{count} χρηστών που βρέθηκαν με όνομα %{query}"
+
+  # Invite users
+  invite_users: "Μαζική πρόσκληση νέων χρηστών"
+  invite_emails: "Διευθύνσεις Email"
+  invite_emails_placeholder: "Πληκτρολογήστε μία ή περισσότερες διευθύνσεις email για να στείλετε μια πρόσκληση"
+  invite_message: "Μήνυμα"
+  invite_message_placeholder: "Ένα προαιρετικό μήνυμα που θα σταλεί στους νέους χρήστες"
+  invite_role: "Ρόλος για Προσκεκλημένους Χρήστες"
+  send_invite: "Αποστολή πρόσκλησης"
+
+  # Discussion View
+  asked_a_question: "%{user_name} έγραψε..."
+  replied: "%{user_name} απάντησε..."
+  posted_note: "%{user_name} δημοσίευσε μια εσωτερική σημείωση..."
+  type_reply: Πληκτρολογήστε την απάντησή σας, ή επιλέξτε από ένα κοινό μήνυμα παρακάτω
+  select_common: Επιλογή Κοινής Απάντησης
+  reply_option: Απάντηση
+  internal_note: Εσωτερική Σημείωση
+  mark_as_resolved: Επισήμανση ως Επιλυμένο
+  upvote:
+    one: "Ψήφος | %{count}"
+    other: "Ψήφος | %{count}"
+
+  # Content
+  new_category: Νέα Κατηγορία
+  new_content: Νέο Περιεχόμενο
+  front_page_categories: Κατηγορίες Πρώτης Σελίδας
+  other_categories: Άλλες Κατηγορίες
+  edit: Επεξεργασία
+  edit_category: Επεξεργασία Κατηγορίας
+  select_category: Επιλογή Κατηγορίας
+  delete: Διαγραφή
+  view_and_edit: "Προβολή και επεξεργασία περιεχομένου"
+  delete_confirm: "Επιβεβαιώστε ότι θέλετε να ΔΙΑΓΡΑΨΕΤΕ αυτό!"
+  select_icon_helptext: "Επιλέξτε ένα εικονίδιο για συσχέτιση με αυτήν την κατηγορία (προαιρετικό)"
+  translate: "Μετάφραση σε μια διαφορετική γλώσσα"
+  view_on_site: "Προβολή στην Ιστοσελίδα"
+  written_on: "Γράφτηκε στις %{date_written}"
+  content_last_updated: "Τελευταία ανανέωση την %{date_updated}"
+  featured_content: "Επιλεγμένο"
+  draft_content: "Προσχέδιο"
+  published_content: "Δημοσιευμένο"
+  additional_settings: "Επιπρόσθετες Ρυθμίσεις"
+  content_status: "Κατάσταση Περιοχομένου"
+  convert_content: 'Αποθήκευση ως άρθρο ή κοινή απάντηση'
+  upload_image: 'Μεταφόρτωση Εικόνας'
+  new_discussion: 'Δημιουργήστε νέα συζήτηση από αυτό'
+  new_discussion_post: 'Η συζήτηση #%{topic_id} δημιουργήθηκε από αυτό'
+  new_discussion_topic_title: 'Διαχωρισμός από #%{original_id}-%{original_name}'
+  change_owner_note: 'Ο δημιουργός αυτού του θέματος άλλαξε από %{παλιό} σε %{old}'
+
+  # Internal Content
+  no_internal_content_title: "Δεν έχει γραφτεί ακόμη εσωτερική τεκμηρίωση!"
+  no_internal_content_text: "Μην ανησυχείτε! Για να συνεισφέρετε στην εσωτερική τεκμηρίωση, μεταβείτε στο Κέντρο βοήθειας> Περιεχόμενο. Και προσθέστε έναν νέο εσωτερικό τύπο κατηγορίας και, στη συνέχεια, μοιραστείτε τις γνώσεις σας με την ομάδα σας γράφοντας μερικά Έγγραφα!
+
+  # Communities
+  new_community: Δημιουργία Νέας Κοινότητας
+  create_new_community: Δημιουργία Νέας Κοινότητας
+  layout_select: Επιλέξτε Μορφή
+  layout_table: Πίνακας
+  layout_grid: Πλέγμα
+  layout_qna: Q&A
+
+  # Mail messages
+  new_user_subject: "Καλωσορίσατε στο %{site_name}"
+  hello: "Γειά σας %{user_name}"
+  thank_you: "Σας ευχαριστούμε!"
+  new_user: "Σας ευχαριστούμε που επικοινωνήσατε μαζί μας. Το μήνυμά σας έχει ληφθεί από την ομάδα υποστήριξής μας και θα επικοινωνήσουμε μαζί σας σύντομα με απάντηση. "
+   account_generated: "Δημιουργήθηκε λογαριασμός για εσάς. Για να συνδεθείτε, χρησιμοποιήστε αυτόν τον σύνδεσμο:"
+   above_this_line: "Βεβαιωθείτε ότι η απάντησή σας εμφανίζεται πάνω από αυτήν τη γραμμή"
+  message_id: "ID Μηνύματος"
+  message_response: "Το ακόλουθο μήνυμα δημοσιεύτηκε ως απάντηση στην ερώτησή σας:"
+  ticket_added: "Έχετε λάβει μια νέα αναφορά προβλήματος. Κάντε κλικ εδώ για να τη δείτε: %{ticket_link}"
+  response_added: "Προστέθηκε μια απάντηση στην αναφορά προβλήματος σας. Κάντε κλικ εδώ για να τη δείτε: %{ticket_link}"
+  view_online: "Δείτε αυτό online:"
+
+  # Admin notifications
+  notify_new_private: "Ελήφθη νέα αναφορά προβλήματος πελάτη από %{user_name}:"
+  notify_new_public: "Ένα νέο δημόσιο μήνυμα πελάτη δημοσιεύτηκε από τον %{user_name}:"
+  notify_new_reply: "Ελήφθη νέα απάντηση από τον πελάτη %{user_name}:"
+  notify_user_delete: "Ο χρήστης %{user_name} προγραμματίστηκε για μόνιμη διαγραφή."
+  to_reply: 'Απαντήστε σε αυτό το μήνυμα απευθείας ή online:'
+
+  # Notifications settings panel
+  notify_on_private: "Όταν έχει ληφθεί νέα αναφορά προβλήματος"
+  notify_on_public: "Όταν έχει δημοσιευτεί μια δημόσια ερώτηση πελάτη"
+  notify_on_reply: "Όταν έχει ληφθεί μια νέα απάντηση σε μια αναφορά προβλήματος"
+
+  # settings
+  agent_settings: "Ρυθμίσεις Πρακτορείου"
+  notifications: "Ειδοποιήσεις"
+  notifications_description:
+  settings: "Ρυθμίσεις"
+  general: "Γενικά"
+  general_description: "Διαχειριστείτε τις γενικές ρυθμίσεις συστήματος, όπως το όνομα στο Helpy ας, σε ποια εταιρεία θα συνδεθείτε ξανά."
+  design: "Σχεδίαση"
+  design_description: "Ελέγξτε τα λογότυπα και τα χρώματα και άλλες πτυχές σχεδίασης του Helpy σας"
+  international: "Διεθνές"
+  international_description:
+  widget: "Ενσωματωμένο Widget"
+  widget_description:
+  common_replies: "Κοινές απαντήσεις"
+  common_replies_description:
+  integrations: "Ενσωματώσεις"
+  integrations_description:
+  theme:
+  theme_description:
+  email: "Email"
+  email_description:
+  customers: "Πελάτες"
+  users_description:
+  team: "Ομάδα"
+  users_description:
+  team_group: "Ομάδες"
+  group_description:
+
+  # General
+  site_name: Όνομα Ιστοσελίδας
+  site_url: URL Ιστοσελίδας
+  site_url_placeholder: Το URL του Helpy σας (https://support.yourdomain.com)
+  parent_site: Κύρια Ιστοσελίδα
+  parent_company: Κύρια Εταιρεία
+  site_tagline: Σήμανση Ιστοσελίδας
+  enable_forums: Ενεργοποίηση Forum Κοινότητας
+  enable_knowledgebase: Ενεργοποίηση της Γνωσιακής βάσης
+  enable_tickets: Ενεργοποίηση Ιδιωτικών Αναφορών Προβλήματος
+  enable_teams: Ενεργοποίση Ομάδων
+  enable_welcome_email: Στείλτε ένα email καλωσορίσματος σε νέους χρήστες
+
+  # Design
+  header_logo: Λογότυπο Κεφαλίδας
+  search_background: Αναζήτηση Χρώματος Φόντου
+  top_bar: Χρώμα Έμφασης Κεφαλίδας
+  link_color: Χρώμα Συνδέσμου
+  form_background: Χρώμα Φόντου Φόρμας
+  still_need_help:
+
+  # Locales
+  supported_locales: Υποστηριζόμενοι Τοπικοί
+  default_locale: Προεπιλεγμένος Τοπικός
+  select_default_locale: "Επιλέξτε Προεπιλεγμένο Τοπικό..."
+
+  # Widget
+  show_widget: Εμφάνιση widget στον ιστότοπο υποστήριξης
+  widget_background: Χρώμα Φόντου Widget
+  button_color: Χρώμα Κουμπιού Widget
+  button_text_color: Χρώμα Κειμένου Widget
+
+  # Integrations
+  incoming_webhook: Εισερχόμενο Webhook
+  incoming_webhook_description: Δημιουργήστε αναφορές προβλήματος από υπάρχουσες φόρμες ιστού δημοσιεύοντας σε μια διεύθυνση URL JSON webhook. Το μυστικό σας URL είναι
+  enable_webhook_url: Ενεργοποίηση Εισερχόμενων Webhooks
+  google_analytics: Google Analytics
+  google_analytics_description: Στείλτε στατιστικά στοιχεία χρήσης του Helpdesk στο Google Analytics για αναφορές και οπτικοποίηση.
+  enable_google_analytics: Ενεργοποίηση Google Analytics
+  google_analytics_id: Google Analytics ID
+  recaptcha_integration: Recaptcha
+  recaptcha_description: Το Recaptcha βοηθά στην προστασία του προσωπικού εξυπηρέτησης πελατών από ανεπιθύμητο περιεχόμενο.
+  enable_recaptcha: Ενεργοποίηση Recaptcha
+  recaptcha_site_key: Κλειδί Ιστότοπου Recaptcha
+  recaptcha_api_key: Κλειδί API Recaptcha
+  cloudinary_integration: Cloudinary
+  cloudinary_description: Το Cloudinary προσφέρει υπηρεσίες φιλοξενίας και μετατροπής εικόνων.
+  enable_cloudinary: Ενεργοποίηση Cloudinary
+  cloudinary_cloud_name: Όνομα Cloud Cloudinary
+  cloudinary_api_key: Κλειδί API Cloudinary
+  cloudinary_api_secret: Μυστικό API Cloudinary
+
+  # Email
+  mail_service: Inbound Mail Service Provider
+  send_email: Enable Outbound (SMTP) Email
+  boolean_no: Όχι
+  boolean_yes: Ναι
+  admin_email: Email Διαχειριστή
+  from_email: Από το Email
+  smtp_mail_username: Όνομα Χρήστη SMTP
+  smtp_mail_password: Κωδικός SMTP
+  mail_smtp: SMTP Server
+  mail_port: Θύρα SMTP
+  mail_domain: SMTP Domain
+  spam_assassin_reject: Όριο SpamAssassin για απόρριψη εισερχόμενων αναφορών προβλήματος μέσω email
+  spam_assassin_filter: Όριο SpamAssassin για τη σήμανση εισερχόμενων αναφορών προβλήματος ως spam
+  email_blacklist: Σημειώστε αυτόματα τις αναφορές προβλήματος από αυτές τις διευθύνσεις ως ανεπιθύμητες (διαχωρίστε τις πολλαπλές με κόμματα)
+
+  # API Key Managmeent
+  api_keys: "Κλειδιά API"
+  key_name: "Όνομα Κλειδιού"
+  token: "Token"
+  add_key: "Προσθήκη ενός Νέου Κλειδιού"
+  expire_token: "Το Token έληξε"
+  expired: "Έληξε"
+  expire_confirm: "Παρακαλούμε επιβεβαιώστε ότι θέλετε πραγματικά να λήξει αυτό το token."
+  spec_note: "Μπορείτε να διαβάσετε και να δοκιμάσετε μια διαδραστική προδιαγραφή API στη διεύθυνση: "
+
+  # Insights
+  activity_report: "Aναφορά Δραστηριότητας"
+  team_insights: "Πληροφορίες Ομάδας"
+  filter_by_date: "Φιλτράρισμα ανά ημερομηνία"
+  today: "Σήμερα"
+  yesterday: "Χθες"
+  this_week: "Αυτή τη βδομάδα"
+  last_week: "Την περασμένη βδομάδα"
+  this_month: "Αυτό το μήνα"
+  last_month: "Τον τελευταίο μήνα"
+  date_range: "Εύρος Ημερομηνιών"
+  insight_start_range: "Ημερομηνία έναρξης:"
+  insight_end_range: "Ημερομηνία λήξης:"
+  insight_filter: "Φιλτράρισμα"
+  insights_blurb_one:
+    one: "<strong>%{period}</strong> οι χρήστες σας άνοιξαν μια νέα αναφορά προβλήματος"
+    other: "<strong>%{period}</strong> οι χρήστες σας άνοιξαν <strong>%{count} νέες αναφορές προβλήματος</strong>"
+  insights_blurb_two: "στα οποία απάντησε η ομάδα σας <strong>%{number_replied} (%{percentage_replied})</strong>"
+  insights_blurb_three_html_html: "με διάμεσο χρόνο απόκρισης <strong>%{response_time}</strong>"
+  no_discussions: "Δεν έχουν ανοικτεί νέες αναφορές προβλήματος <strong>%{period}</strong>"
+  assigned_topics: "Αναθετημένες Αναφορές Προβλήματος"
+  responded: "Απαντημένη"
+  closed: "Κλειστή"
+  replies: "Απαντήσεις"
+  median_time: "Διάμεσος χρόνος για την πρώτη απάντηση"
+
+  # Reports
+  ticketing_reports: Ticketing Reports
+  group_report: "Αναφορά Ομάδας"
+  team_reports: "Αναφορές Ομάδας"
+  percent_resolved: Ποσοστό Επιλυμένων
+  average_resolution_time: Μέσος Χρόνος Επίλυσης
+  new_tickets: Νέες Αναφορές Προβλήματος
+  new_tickets_explain: Ο αριθμός των νέων αναφορών προβλήματος που έχει λάβει το Helpy σας αυτήν την περίοδο.
+  tickets_per_day: Αναφορές Προβλήματος ανά ημέρα
+  tickets_per_day_explain: Ο αριθμός των αναφορών προβλήματος κατά μέσο όρο του Helpy ανά ημέρα.
+  replies_explain: Ο αριθμός των απαντήσεων που έγραψαν τα πρακτορεία σας σε αυτήν την περίοδο.
+  actions_explain: Ο συνολικός αριθμός ενεργειών (απαντήσεις ή εσωτερικές σημειώσεις) σε αυτήν την περίοδο. Μια καλή ένδειξη για το πόσο απασχολημένο είναι το Helpy σας συνολικά.
+  closed_explain: Ο αριθμός των αναφορών προβλήματος που έκλεισαν κατά τη διάρκεια αυτής της περιόδου. Πρέπει να είναι κοντά στον αριθμό των νέων εισιτηρίων για προηγούμενες περιόδους.
+
+  # IMPORT/EXPORT
+  file_type: Τύπος
+  file_users: Χρήστες
+  file_tickets: Αναφορές Προβλήματος
+  file_replies: Απαντήσεις
+  file_docs: Έγγραφα
+  file_categories: Κατηγορίες
+  file_forums: Forums
+  import: 'Εισαγωγή CSV'
+  new_import: 'Νέα Εισαγωγή'
+  export: 'Εξαγωγή CSV'
+  what_to_export: 'Επιλέξτε τι θέλετε να εξαγάγετε'
+  what_to_import: 'Επιλέξτε τι θέλετε να εισαγάγετε'
+  imports: 'Εισαγωγές'
+  exports: 'Εξαγωγές'
+  past_imports: 'Προηγούμενες Εισαγωγές'
+  run_time: 'Χρόνος Εκτέλεσης'
+  clear_all: 'Διαγραφή όλων'
+  error_details: 'Λεπτομέρειες Σφάλματος '
+  row_number: 'Αριθμός σειράς'
+  error_message: 'Μήνυμα Λάθους'
+  object: 'Αντικείμενο'
+  import_details: '#%{id} Εισαγωγή Λεπτομερειών'
+  select_for_export: 'Εξαγωγή %{model} σε .csv'
+  file_date_created: Ημερομηνία Δημιουργίας
+  import_total_submitted: Σύνολο Υποβληθέντων Εγγραφών
+  import_total_created: Σύνολο Εγγραφών που δημιουργήθηκαν
+  file_name: Όνομα Αρχείου
+  file_download: Download
+  file_delete: Διαγραφή
+  file_delete_confirm: "Είστε βέβαιοι ότι θέλετε να διαγράψετε το .csv?"
+
+  kind_type: &kind Type
+
+  activerecord:
+    attributes:
+      user:
+        email: Email
+        password: Κωδικός
+        name: Όνομα
+        company: Εταιρεία
+        work_phone: Εργασία
+        home_phone: Τηλέφωνο
+        cell_phone: Κινητό
+        city: Πόλη
+        state: Νομός
+        zip: ΤΚ
+        signature: Υπογραφή
+        title:
+        time_zone:
+        street: Οδός
+        notes: Σημειώσεις
+      topic:
+        kind: *είδος
+        name: *θέμα
+        channel: Κανάλι
+        team_list: Ομάδα
+        priority: *προτεραιότητα
+        current_status: *κατάσταση
+        assigned_user_id: *ανάθεση_πράκτορα
+        tag_list: Λίστα Ετικετών
+      post:
+        kind: *είδος
+        body: Μήνυμα
+        cc: CC
+        bcc: BCC
+        attachments: Συνημμένα
+      category:
+        name: Όνομα
+        parent_id: Κύρια Κατηγορία
+        icon: Εικονίδιο
+        keywords: Λέξεις Κλειδιά
+        title_tag: Τίτλος Ετικέτας
+        meta_description: Μετα-περιγραφή
+        front_page: Εξώφυλλο
+        active: Ενεργό
+        visibility: Ορατότητα
+        visibility_label:
+          all: Όλα
+          public: Δημόσια
+          internal: Εσωτερικά
+      doc:
+        title: Τίτλος
+        meta_description: Μετα-περιγραφή
+        title_tag: Τίτλος ετικέτας
+        keywords: Λέξεις Κλειδιά
+        category_id: Κατηγορία
+        active: Κατάσταση
+        front_page: Εμφανίζεται στην πρώτη σελίδα;
+      forum:
+        name: Όνομα
+        description: Περιγραφή
+        private: Ιδιωτικό
+        layout: Σχέδιο
+        allow_topic_voting: Να επιτρέπεται η ψηφοφορία θεμάτων;
+        allow_post_voting: Να επιτρέπεται η ψηφοφορία δημοσιεύσεων;
+
+    helpers:
+      submit:
+        topic:
+          create: Έναρξη Νέας Συζήτησης
+        post:
+          create:
+
+  breadcrumbs:
+    application:
+      root: *root
+    categories:
+      root: *root
+    docs:
+      root: *root
+    forums:
+      root: *root
+    locales:
+      root: *root
+    topics:
+      root: *root
+    posts:
+      root: *root
+    result:
+      root: *root
+    registrations:
+      root: *root
+    admin:
+      internal_categories:
+        root: *root
+      internal_docs:
+        root: *root
+  helpers:
+    actions: "Ενέργειες"
+    links:
+      back: "Πίσω"
+      cancel: "Ακύρωση"
+      confirm: "Είστε σίγουροι?"
+      destroy: "Διαγραφή"
+      new: "Νέο"
+      edit: "Επεξεργασία"
+    titles:
+      edit: "Επεξεργασία %{model}"
+      save: "Αποθήκευση %{model}"
+      new: "Νέο %{model}"
+      delete: "Διαγραφή %{model}"
+
+  number:
+    human:
+      decimal_units:
+        format: "%n%u"
+        units:
+          unit: ""
+          thousand: Χ
+          million: Ε
+          billion: Δ
+          trillion: Τ
+          quadrillion: Τ
+
