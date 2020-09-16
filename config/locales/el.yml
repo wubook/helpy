@@ -1,6 +1,6 @@
 # MAINTAINER: WUBOOK
 
-en:
+el:
   language_name: 'Ελληνικά' # The name of the translation file, in that language
   root: &root 'Αρχική'
   how_can_we_help: "Πως μπορούμε να σας βοηθήσουμε;"

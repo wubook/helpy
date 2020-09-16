@@ -1,6 +1,6 @@
 # MAINTAINER: WUBOOK
 
-en:
+th:
 language_name: 'ภาษาไทย' # The name of the translation file, in that language
 root: &root 'หน้าหลัก'
 how_can_we_help: "ให้เราช่วยอะไรไหม?"
